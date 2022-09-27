@@ -1,25 +1,19 @@
 scrNeuesTicket As screen:
 
-    Form1 As form:
-        DataSource: =ticket
-        Height: =570
-        Width: =1366
-        Y: =105
+    TextInput1 As text:
+        Default: ="Text input"
+        Y: =226
         ZIndex: =1
 
-        description_DataCard1 As typedDataCard.textualEditCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="description"
-            Default: =ThisItem.description
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@ticket],DataSourceInfo.DisplayName,"description")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =431
-            MaxLength: =DataSourceInfo([@ticket], DataSourceInfo.MaxLength, "description")
-            Required: =false
-            Update: =DataCardValue2.Text
-            Width: =455
-            X: =1
-            Y: =100
-            ZIndex: =2
+    TextInput1_1 As text:
+        Default: ="Text input"
+        X: =470
+        Y: =312
+        ZIndex: =2
+
+    TextInput1_2 As text:
+        Default: ="Text input"
+        X: =20
+        Y: =396
+        ZIndex: =3
 
