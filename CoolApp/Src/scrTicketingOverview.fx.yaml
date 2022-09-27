@@ -123,3 +123,9 @@ scrTicketingOverview As screen:
             Y: =111
             ZIndex: =12
 
+        Image1 As image:
+            OnSelect: =Select(Parent)
+            X: =40
+            Y: =40
+            ZIndex: =13
+
