@@ -42,3 +42,9 @@ scrNeuesTicket As screen:
         Y: =272
         ZIndex: =6
 
+    Button1 As button:
+        Text: ="Create"
+        X: =1185
+        Y: =710
+        ZIndex: =7
+
