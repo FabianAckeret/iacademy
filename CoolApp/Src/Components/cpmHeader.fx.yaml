@@ -13,7 +13,7 @@ cpmHeader As CanvasComponent:
         Height: =60
         Size: =20
         Text: ="Ticketing Aveniq"
-        Width: =1366
+        Width: =App.Width
         ZIndex: =1
 
     imgHeader As image:

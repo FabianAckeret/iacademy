@@ -25,17 +25,17 @@
         {
           "Category": "Design",
           "PropertyName": "ZIndex",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
           "PropertyName": "Y",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
           "PropertyName": "X",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -45,7 +45,7 @@
         {
           "Category": "Design",
           "PropertyName": "Height",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -306,7 +306,14 @@
         "VerticalAlign",
         "X",
         "Y",
-        "Width",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "1366",
+          "InvariantPropertyName": "Width",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Height",
         "DisplayMode",
         "ZIndex",
