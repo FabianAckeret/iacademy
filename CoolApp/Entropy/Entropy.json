@@ -1,23 +1,83 @@
 {
-  "ComponentIndexes": {},
+  "ComponentIndexes": {
+    "cpmHeader": 3,
+    "cpmHeader_1": 3
+  },
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "cpmHeader": 3,
+    "cpmHeader_1": 11,
+    "imgHeader": 5,
+    "Label2": 8,
+    "lblHeader": 4,
+    "lblUser": 10,
+    "scrMain": 6,
+    "scrNeuesTicket": 7,
+    "scrTicketingOverview": 9
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "09/27/2022 13:57:21",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "1639d0c4-81ff-48e4-8dd6-c51a6f7bc63a": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/4388eac40c7140919c649a68075bb67f\""
+  },
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
-  "OrderComponentMetadata": {},
-  "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "LocalResourceFileNames": {
+    "aveniq-logo": "5cd5f46a-be4a-44cb-a1ad-cf7de088798e.png"
+  },
+  "LocalResourceRootPaths": {
+    "aveniq-logo": "https://docserverpwaprodwus.blob.core.windows.net/fce8cfa6-fd6c-4e30-b7bd-a7bde5afa983-1/resource/069cdbf1-eb94-423f-9a00-deca65c80143.png?sv=2017-04-17&sr=b&sig=1KeaqIIRh2gmX6Z%2FkBl1XBGGLzwNApcHD9lWP6W%2B5a4%3D&spr=https&se=2022-09-28T14%3A06%3A35Z&sp=r"
+  },
+  "OrderComponentMetadata": {
+    "a86b2444c62c46a5b47a868a669588f9": 0
+  },
+  "OrderComponentTemplate": {
+    "a86b2444c62c46a5b47a868a669588f9": 0
+  },
+  "OrderDataSource": {
+    "category": 0,
+    "notes": 1,
+    "prio": 2,
+    "status": 3,
+    "ticket": 4
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
+  "OrderXMLTemplate": {
+    "image": 1,
+    "label": 0
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "cpmHeader": 1,
+    "cpmHeader_1": 1,
+    "imgHeader": 2,
+    "Label2": 0,
+    "lblHeader": 1,
+    "lblUser": 3,
+    "scrMain": 5,
+    "scrNeuesTicket": 6,
+    "scrTicketingOverview": 8
+  },
+  "ResourcesJsonIndices": {
+    "Image-aveniq-logo": 1,
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0567323,
+    "ControlCount": {
+      "a86b2444c62c46a5b47a868a669588f9": 2,
+      "image": 1,
+      "label": 2,
+      "screen": 3
+    },
+    "DeserializationLoadTime": 0.4434684,
+    "ErrorCount": 0
+  },
+  "WasLocalDatabaseReferencesEmpty": true
 }

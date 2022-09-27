@@ -1,7 +1,7 @@
 cpmHeader As CanvasComponent:
-    Fill: =RGBA(0, 0, 0, 0)
-    Height: =640
-    Width: =640
+    Fill: =
+    Height: =60
+    Width: =App.Width
     X: =0
     Y: =0
     ZIndex: =1
@@ -10,14 +10,24 @@ cpmHeader As CanvasComponent:
         Align: =Align.Center
         Fill: =RGBA(102, 182, 227, 1)
         Font: =Font.'Lato Black'
-        Height: =72
+        Height: =60
         Size: =20
         Text: ="Ticketing Aveniq"
-        Width: =640
+        Width: =1366
         ZIndex: =1
 
     imgHeader As image:
-        Height: =72
-        Width: =88
+        Height: =60
+        Image: ='aveniq-logo'
+        ImagePosition: =ImagePosition.Fill
+        Width: =81
         ZIndex: =2
+
+    lblUser As label:
+        Align: =Align.Right
+        Height: =60
+        Size: =15
+        Text: =User().FullName
+        X: =1216
+        ZIndex: =3
 
