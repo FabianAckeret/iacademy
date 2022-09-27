@@ -1,1 +1,43 @@
-{}
+{
+  "1639d0c4-81ff-48e4-8dd6-c51a6f7bc63a": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1591/1.0.1591.2961/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://s8486.sharepoint.com/sites/ticketingtool": {
+        "dataSources": {
+          "category": {
+            "tableName": "74177788-9a8b-46cc-8f43-7d61a0a2ab99"
+          },
+          "notes": {
+            "tableName": "9d40114a-2411-40f3-9880-6490fc1b07d3"
+          },
+          "prio": {
+            "tableName": "9d36b3b3-442d-41c2-8832-4bab2fb56d85"
+          },
+          "status": {
+            "tableName": "8852f78c-6b5c-40af-b22c-40b7a6b4307a"
+          },
+          "ticket": {
+            "tableName": "165300ef-072a-441f-87aa-cd1938f15eec"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "ticket",
+      "status",
+      "prio",
+      "notes",
+      "category"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "1639d0c4-81ff-48e4-8dd6-c51a6f7bc63a"
+  }
+}
