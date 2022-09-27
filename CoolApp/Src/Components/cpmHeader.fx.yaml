@@ -28,6 +28,6 @@ cpmHeader As CanvasComponent:
         Height: =60
         Size: =15
         Text: =User().FullName
-        X: =1216
+        X: =App.Width - Self.Width
         ZIndex: =3
 
