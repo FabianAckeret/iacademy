@@ -3,12 +3,12 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Label1": 4,
-    "Screen1": 3
+    "Label2": 6,
+    "scrMain": 3
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/27/2022 13:44:02",
+  "HeaderLastSavedDateTimeUTC": "09/27/2022 13:47:15",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -25,8 +25,8 @@
   },
   "PublishOrderIndices": {
     "App": 0,
-    "Label1": 0,
-    "Screen1": 0
+    "Label2": 0,
+    "scrMain": 0
   },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},

@@ -1,0 +1,8 @@
+scrMain As screen:
+
+    Label2 As label:
+        Height: =192
+        Text: ="Text"
+        Width: =630
+        ZIndex: =1
+
