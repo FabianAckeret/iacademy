@@ -1,8 +1,0 @@
-Screen1 As screen:
-
-    Label1 As label:
-        Text: ="Text"
-        X: =88
-        Y: =76
-        ZIndex: =1
-

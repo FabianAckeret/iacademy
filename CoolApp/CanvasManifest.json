@@ -93,7 +93,7 @@
     "Id": "e73b722b-1399-4297-8243-5f1760ed9712",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "Name": "Cool App",
+    "Name": "Ticketing Tool",
     "OriginatingVersion": "1.326"
   },
   "PublishInfo": {
@@ -108,6 +108,9 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1"
+    "Screen1",
+    "TicketingOverview",
+    "scrMain",
+    "scrNeuesTicket"
   ]
 }

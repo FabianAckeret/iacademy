@@ -1,0 +1,9 @@
+scrNeuesTicket As screen:
+
+    Label2 As label:
+        Height: =82
+        Text: ="Text"
+        Width: =683
+        Y: =140
+        ZIndex: =1
+
