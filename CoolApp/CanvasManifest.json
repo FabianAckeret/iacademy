@@ -93,11 +93,11 @@
     "Id": "e73b722b-1399-4297-8243-5f1760ed9712",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "Name": "Cool App",
+    "Name": "Ticketing Tool",
     "OriginatingVersion": "1.326"
   },
   "PublishInfo": {
-    "AppName": "Cool App",
+    "AppName": "Ticketing Tool",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
@@ -108,6 +108,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1"
+    "Screen1",
+    "scrNeuesTicket"
   ]
 }
