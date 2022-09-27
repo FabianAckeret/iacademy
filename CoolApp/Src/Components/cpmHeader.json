@@ -103,7 +103,7 @@
         "Name": "lblHeader",
         "Parent": "cpmHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 30,
+        "PublishOrderIndex": 2,
         "Rules": [
           {
             "Category": "Data",
@@ -403,7 +403,7 @@
         "Name": "imgHeader",
         "Parent": "cpmHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 31,
+        "PublishOrderIndex": 3,
         "Rules": [
           {
             "Category": "Data",
@@ -674,7 +674,7 @@
         "Name": "lblUser",
         "Parent": "cpmHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 32,
+        "PublishOrderIndex": 4,
         "Rules": [
           {
             "Category": "Data",
@@ -780,7 +780,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "App.Width - Self.Width",
+            "InvariantScript": "1216",
             "Property": "X",
             "RuleProviderType": "Unknown"
           },
@@ -936,7 +936,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "637998854170741876",
+    "LastModifiedTimestamp": "637998839146854666",
     "Name": "cpmHeader",
     "Rules": [
       {
@@ -995,7 +995,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637998854170741876",
+  "LastModifiedTimestamp": "637998839146854666",
   "Name": "a86b2444c62c46a5b47a868a669588f9",
   "OverridableProperties": {},
   "Version": "637998832580771755"
