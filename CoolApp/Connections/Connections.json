@@ -39,5 +39,30 @@
     "dependencies": {},
     "dependents": [],
     "id": "1639d0c4-81ff-48e4-8dd6-c51a6f7bc63a"
+  },
+  "eea44833-31c6-4de3-b517-7d0da30bf400": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1591/1.0.1591.2961/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://s8486.sharepoint.com/sites/ticketingtool": {
+        "dataSources": {
+          "admins": {
+            "tableName": "cc3b23ca-bf66-47ec-868f-e4a20c0782db"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "admins"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "eea44833-31c6-4de3-b517-7d0da30bf400"
   }
 }

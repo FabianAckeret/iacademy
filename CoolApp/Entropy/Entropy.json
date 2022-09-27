@@ -1,23 +1,146 @@
 {
-  "ComponentIndexes": {},
+  "ComponentIndexes": {
+    "cpmHeader": 3
+  },
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "btnAdmin": 12,
+    "btnArchiv": 11,
+    "btnNewTicket": 9,
+    "btnStatus": 10,
+    "cpmHeader": 3,
+    "cpmHeader_1": 28,
+    "cpmHeader_2": 8,
+    "description_DataCard1": 15,
+    "Form1": 14,
+    "Gallery3": 29,
+    "galleryTemplate1": 18,
+    "galleryTemplate4": 30,
+    "glyOpenTickets": 17,
+    "Image5": 31,
+    "imgHeader": 5,
+    "lblCategoryFix": 27,
+    "lblHeader": 4,
+    "lblID": 21,
+    "lblIdFix": 20,
+    "lblPrio": 23,
+    "lblPriorityFix": 22,
+    "lblSupporter": 24,
+    "lblSupporter_1": 25,
+    "lblSupporterFix": 26,
+    "lblTitle": 19,
+    "lblUser": 6,
+    "NextArrow3": 33,
+    "scrMain": 7,
+    "scrNeuesTicket": 13,
+    "scrTicketingOverview": 16,
+    "Separator3": 35,
+    "Subtitle3": 34,
+    "Title3": 32
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "09/27/2022 14:30:48",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "1639d0c4-81ff-48e4-8dd6-c51a6f7bc63a": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/4388eac40c7140919c649a68075bb67f\"",
+    "eea44833-31c6-4de3-b517-7d0da30bf400": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/4b31779431354de1926d7fcf8ec8468a\""
+  },
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
-  "OrderComponentMetadata": {},
-  "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "LocalResourceFileNames": {
+    "aveniq-logo": "0001.png"
+  },
+  "LocalResourceRootPaths": {
+    "aveniq-logo": "https://docserverpwaprodwus.blob.core.windows.net/223688a4-7f7a-4876-a16f-1a9ac011097e-1/resource/Assets0Images00001.png?sv=2017-04-17&sr=b&sig=j6UP2V5R326y6f4T2l0tzKIkbBMptHOX7pfTJqGyav0%3D&spr=https&se=2022-09-28T14%3A44%3A56Z&sp=r"
+  },
+  "OrderComponentMetadata": {
+    "a86b2444c62c46a5b47a868a669588f9": 0
+  },
+  "OrderComponentTemplate": {
+    "a86b2444c62c46a5b47a868a669588f9": 0
+  },
+  "OrderDataSource": {
+    "admins": 0,
+    "category": 1,
+    "ComboBoxSample": 2,
+    "CustomGallerySample": 3,
+    "notes": 4,
+    "prio": 5,
+    "status": 6,
+    "ticket": 7
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
+  "OrderXMLTemplate": {
+    "button": 2,
+    "form": 3,
+    "gallery": 4,
+    "icon": 5,
+    "image": 1,
+    "label": 0,
+    "rectangle": 6
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "btnAdmin": 11,
+    "btnArchiv": 10,
+    "btnNewTicket": 8,
+    "btnStatus": 9,
+    "cpmHeader": 1,
+    "cpmHeader_1": 17,
+    "cpmHeader_2": 7,
+    "description_DataCard1": 14,
+    "Form1": 13,
+    "Gallery3": 18,
+    "galleryTemplate1": 19,
+    "galleryTemplate4": 29,
+    "glyOpenTickets": 16,
+    "Image5": 30,
+    "imgHeader": 3,
+    "lblCategoryFix": 28,
+    "lblHeader": 2,
+    "lblID": 22,
+    "lblIdFix": 21,
+    "lblPrio": 24,
+    "lblPriorityFix": 23,
+    "lblSupporter": 25,
+    "lblSupporter_1": 26,
+    "lblSupporterFix": 27,
+    "lblTitle": 20,
+    "lblUser": 4,
+    "NextArrow3": 32,
+    "scrMain": 6,
+    "scrNeuesTicket": 12,
+    "scrTicketingOverview": 15,
+    "Separator3": 34,
+    "Subtitle3": 33,
+    "Title3": 31
+  },
+  "ResourcesJsonIndices": {
+    "Image-aveniq-logo": 1,
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.5154197,
+    "ControlCount": {
+      "a86b2444c62c46a5b47a868a669588f9": 3,
+      "button": 4,
+      "form": 1,
+      "gallery": 2,
+      "galleryTemplate": 2,
+      "icon": 1,
+      "image": 2,
+      "label": 13,
+      "rectangle": 1,
+      "screen": 3,
+      "typedDataCard": 1
+    },
+    "DeserializationLoadTime": 2.2298484,
+    "ErrorCount": 2
+  },
+  "WasLocalDatabaseReferencesEmpty": true
 }
