@@ -16,7 +16,7 @@ scrMain As screen:
         Height: =205
         Size: =25
         Text: ="Admin"
-        Visible: =if
+        Visible: =!IsBlank(LookUp(admins,employee.Email = User().Email))
         Width: =252
         X: =540
         Y: =472
