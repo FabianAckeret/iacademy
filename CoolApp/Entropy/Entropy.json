@@ -1,31 +1,38 @@
 {
   "ComponentIndexes": {
-    "cpmHeader": 3
+    "cpmHeader": 3,
+    "cpmHeader_1": 3
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
     "cpmHeader": 3,
-    "Gallery1": 9,
+    "cpmHeader_1": 29,
     "galleryTemplate1": 10,
+    "glyOpenTickets": 9,
     "Image1": 11,
     "imgHeader": 5,
-    "Label1": 16,
     "Label1_1": 17,
     "Label1_2": 18,
     "Label1_3": 19,
+    "Label1_4": 20,
     "lblHeader": 4,
+    "lblID": 13,
+    "lblIdFix": 27,
+    "lblPrio": 28,
+    "lblPriorityFix": 23,
+    "lblSupporter": 21,
+    "lblSupporterFix": 25,
+    "lblTitle": 12,
     "NextArrow1": 14,
     "scrMain": 6,
     "scrNeuesTicket": 7,
     "scrTicketingOverview": 8,
-    "Separator1": 15,
-    "Subtitle1": 13,
-    "Title1": 12
+    "Separator1": 15
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/27/2022 13:51:08",
+  "HeaderLastSavedDateTimeUTC": "09/27/2022 14:05:52",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "1639d0c4-81ff-48e4-8dd6-c51a6f7bc63a": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/eb06a1ba30ae4fcaa3bbe3b0b9a518df\""
@@ -60,22 +67,28 @@
   "PublishOrderIndices": {
     "App": 0,
     "cpmHeader": 1,
-    "Gallery1": 8,
-    "galleryTemplate1": 13,
-    "Image1": 14,
-    "imgHeader": 3,
-    "Label1": 9,
-    "Label1_1": 10,
-    "Label1_2": 11,
-    "Label1_3": 12,
-    "lblHeader": 2,
-    "NextArrow1": 17,
+    "cpmHeader_1": 1,
+    "galleryTemplate1": 1,
+    "glyOpenTickets": 0,
+    "Image1": 2,
+    "imgHeader": 17,
+    "Label1_1": 12,
+    "Label1_2": 13,
+    "Label1_3": 14,
+    "Label1_4": 15,
+    "lblHeader": 16,
+    "lblID": 6,
+    "lblIdFix": 5,
+    "lblPrio": 8,
+    "lblPriorityFix": 7,
+    "lblSupporter": 9,
+    "lblSupporterFix": 10,
+    "lblTitle": 3,
+    "NextArrow1": 4,
     "scrMain": 5,
     "scrNeuesTicket": 6,
     "scrTicketingOverview": 7,
-    "Separator1": 18,
-    "Subtitle1": 16,
-    "Title1": 15
+    "Separator1": 11
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
@@ -85,12 +98,12 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 0.1413669,
     "ControlCount": {
-      "a86b2444c62c46a5b47a868a669588f9": 1,
+      "a86b2444c62c46a5b47a868a669588f9": 3,
       "gallery": 1,
       "galleryTemplate": 1,
       "icon": 1,
       "image": 2,
-      "label": 7,
+      "label": 14,
       "rectangle": 1,
       "screen": 3
     },

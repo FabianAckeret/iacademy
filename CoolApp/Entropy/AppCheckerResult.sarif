@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "scrTicketingOverview.Gallery1.AccessibleLabel"
+                  "fullyQualifiedName": "scrTicketingOverview.glyOpenTickets.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "scrTicketingOverview.Gallery1.AccessibleLabel",
+                  "fullyQualifiedName": "scrTicketingOverview.glyOpenTickets.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "scrTicketingOverview",
-                "type": "scrTicketingOverview.Gallery1"
+                "type": "scrTicketingOverview.glyOpenTickets"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "scrTicketingOverview.Gallery1.TabIndex"
+                  "fullyQualifiedName": "scrTicketingOverview.glyOpenTickets.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "scrTicketingOverview.Gallery1.TabIndex",
+                  "fullyQualifiedName": "scrTicketingOverview.glyOpenTickets.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "scrTicketingOverview",
-                "type": "scrTicketingOverview.Gallery1"
+                "type": "scrTicketingOverview.glyOpenTickets"
               }
             }
           ],
