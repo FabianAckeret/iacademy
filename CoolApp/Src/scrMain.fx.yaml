@@ -1,7 +1,5 @@
 scrMain As screen:
 
-    cpmHeader_1 As cpmHeader:
-
     Button1 As button:
         Height: =205
         Text: ="Button"
