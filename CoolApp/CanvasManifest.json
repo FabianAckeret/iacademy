@@ -108,9 +108,8 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1",
-    "TicketingOverview",
     "scrMain",
-    "scrNeuesTicket"
+    "scrNeuesTicket",
+    "scrTicketingOverview"
   ]
 }
