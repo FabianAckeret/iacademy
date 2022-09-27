@@ -636,7 +636,14 @@
             "NameMapSourceSchema": "?"
           },
           "VerticalAlign",
-          "X",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "1216",
+            "InvariantPropertyName": "X",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
           "Y",
           "Width",
           "Height",
@@ -780,7 +787,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "1216",
+            "InvariantScript": "App.Width - Self.Width",
             "Property": "X",
             "RuleProviderType": "Unknown"
           },
@@ -936,7 +943,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "637998839146854666",
+    "LastModifiedTimestamp": "637998842732963815",
     "Name": "cpmHeader",
     "Rules": [
       {
@@ -995,7 +1002,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637998839146854666",
+  "LastModifiedTimestamp": "637998842732963815",
   "Name": "a86b2444c62c46a5b47a868a669588f9",
   "OverridableProperties": {},
   "Version": "637998832580771755"
