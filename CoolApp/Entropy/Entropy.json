@@ -1,23 +1,141 @@
 {
-  "ComponentIndexes": {},
+  "ComponentIndexes": {
+    "cpmHeader": 3
+  },
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "btnAdmin": 12,
+    "btnArchiv": 11,
+    "btnNewTicket": 9,
+    "btnStatus": 10,
+    "category_DataCard1": 15,
+    "cpmHeader": 3,
+    "cpmHeader_1": 30,
+    "cpmHeader_2": 8,
+    "DataCardKey2": 16,
+    "DataCardValue2": 17,
+    "ErrorMessage2": 18,
+    "frmNeuesTicket": 14,
+    "galleryTemplate1": 22,
+    "glyOpenTickets": 21,
+    "imgHeader": 5,
+    "Label1_1": 31,
+    "Label1_2": 32,
+    "Label1_3": 33,
+    "Label1_4": 34,
+    "lblHeader": 4,
+    "lblID": 25,
+    "lblIdFix": 24,
+    "lblPrio": 27,
+    "lblPriorityFix": 26,
+    "lblSupporter": 28,
+    "lblSupporterFix": 29,
+    "lblTitle": 23,
+    "lblUser": 6,
+    "scrMain": 7,
+    "scrNeuesTicket": 13,
+    "scrTicketingOverview": 20,
+    "StarVisible2": 19
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "09/27/2022 14:23:31",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "1639d0c4-81ff-48e4-8dd6-c51a6f7bc63a": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/4388eac40c7140919c649a68075bb67f\""
+  },
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
-  "OrderComponentMetadata": {},
-  "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "LocalResourceFileNames": {
+    "aveniq-logo": "0001.png"
+  },
+  "LocalResourceRootPaths": {
+    "aveniq-logo": "https://docserverpwaprodwus.blob.core.windows.net/fce8cfa6-fd6c-4e30-b7bd-a7bde5afa983-1/resource/Assets0Images00001.png?sv=2017-04-17&sr=b&sig=Uc9nCyDyRBokhBsWclgzDqB%2FYUzPDxj9QF0bB%2FH24x0%3D&spr=https&se=2022-09-28T14%3A33%3A46Z&sp=r"
+  },
+  "OrderComponentMetadata": {
+    "a86b2444c62c46a5b47a868a669588f9": 0
+  },
+  "OrderComponentTemplate": {
+    "a86b2444c62c46a5b47a868a669588f9": 0
+  },
+  "OrderDataSource": {
+    "admins": 7,
+    "category": 0,
+    "ComboBoxSample": 1,
+    "CustomGallerySample": 2,
+    "notes": 3,
+    "prio": 4,
+    "status": 5,
+    "ticket": 6
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
+  "OrderXMLTemplate": {
+    "button": 2,
+    "combobox": 4,
+    "form": 3,
+    "gallery": 5,
+    "image": 1,
+    "label": 0
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "btnAdmin": 11,
+    "btnArchiv": 10,
+    "btnNewTicket": 8,
+    "btnStatus": 9,
+    "category_DataCard1": 14,
+    "cpmHeader": 1,
+    "cpmHeader_1": 21,
+    "cpmHeader_2": 7,
+    "DataCardKey2": 15,
+    "DataCardValue2": 16,
+    "ErrorMessage2": 17,
+    "frmNeuesTicket": 13,
+    "galleryTemplate1": 26,
+    "glyOpenTickets": 20,
+    "imgHeader": 3,
+    "Label1_1": 22,
+    "Label1_2": 23,
+    "Label1_3": 24,
+    "Label1_4": 25,
+    "lblHeader": 2,
+    "lblID": 29,
+    "lblIdFix": 28,
+    "lblPrio": 31,
+    "lblPriorityFix": 30,
+    "lblSupporter": 32,
+    "lblSupporterFix": 33,
+    "lblTitle": 27,
+    "lblUser": 4,
+    "scrMain": 6,
+    "scrNeuesTicket": 12,
+    "scrTicketingOverview": 19,
+    "StarVisible2": 18
+  },
+  "ResourcesJsonIndices": {
+    "Image-aveniq-logo": 1,
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.2814654,
+    "ControlCount": {
+      "a86b2444c62c46a5b47a868a669588f9": 3,
+      "button": 4,
+      "combobox": 1,
+      "form": 1,
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "image": 1,
+      "label": 16,
+      "screen": 3,
+      "typedDataCard": 1
+    },
+    "DeserializationLoadTime": 1.1793502,
+    "ErrorCount": 7
+  },
+  "WasLocalDatabaseReferencesEmpty": true
 }
