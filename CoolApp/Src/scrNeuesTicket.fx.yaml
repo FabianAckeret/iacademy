@@ -1,19 +1,44 @@
 scrNeuesTicket As screen:
 
     TextInput1 As text:
-        Default: ="Text input"
-        Y: =226
+        Default: ="Title"
+        Height: =50
+        Width: =800
+        Y: =150
         ZIndex: =1
 
     TextInput1_1 As text:
-        Default: ="Text input"
-        X: =470
-        Y: =312
+        Default: ="Description"
+        Height: =500
+        Mode: =TextMode.MultiLine
+        Width: =800
+        Y: =210
         ZIndex: =2
 
     TextInput1_2 As text:
-        Default: ="Text input"
-        X: =20
-        Y: =396
+        Default: ="Priority"
+        Height: =50
+        Width: =400
+        X: =850
+        Y: =150
         ZIndex: =3
+
+    cpmHeader_3 As cpmHeader:
+        ZIndex: =4
+
+    TextInput1_3 As text:
+        Default: ="Attachments"
+        Height: =50
+        Width: =400
+        X: =850
+        Y: =210
+        ZIndex: =5
+
+    TextInput1_4 As text:
+        Default: ="Attachments"
+        Height: =50
+        Width: =400
+        X: =850
+        Y: =272
+        ZIndex: =6
 
