@@ -110,6 +110,7 @@
   "ScreenOrder": [
     "scrMain",
     "scrNeuesTicket",
-    "TicketingOverview"
+    "TicketingOverview",
+    "scrTicketingOverview"
   ]
 }
