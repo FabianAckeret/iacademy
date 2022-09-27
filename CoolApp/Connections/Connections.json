@@ -11,9 +11,6 @@
     "datasets": {
       "https://s8486.sharepoint.com/sites/ticketingtool": {
         "dataSources": {
-          "admins": {
-            "tableName": "cc3b23ca-bf66-47ec-868f-e4a20c0782db"
-          },
           "category": {
             "tableName": "74177788-9a8b-46cc-8f43-7d61a0a2ab99"
           },
@@ -37,8 +34,7 @@
       "status",
       "prio",
       "notes",
-      "category",
-      "admins"
+      "category"
     ],
     "dependencies": {},
     "dependents": [],
