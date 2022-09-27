@@ -1,213 +1,108 @@
 scrTicketingOverview As screen:
 
-    "glyOpenTickets As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-        Fill: =White
-        Height: =691
-        Items: =ticket
-        Layout: =Layout.Vertical
-        TemplatePadding: =0
-        TemplateSize: =Min(160, Self.Height - 60)
-        Width: =376
-        X: =40
-        Y: =76
-        ZIndex: =1
-
-        lblTitle As label:
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.Title
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth- 104
-            ZIndex: =2
-
-        lblID As label:
-            Align: =Align.Right
-            FontWeight: =FontWeight.Bold
-            Height: =33
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.ID
-            VerticalAlign: =VerticalAlign.Top
-            Width: =103
-            X: =246
-            Y: =33
-            ZIndex: =3
-
-        lblSupporter As label:
-            Align: =Align.Right
-            Height: =31
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.supporter.DisplayName
-            VerticalAlign: =VerticalAlign.Top
-            Width: =173
-            X: =176
-            Y: =96
-            ZIndex: =6
-
-        lblPriorityFix As label:
-            Height: =30
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: ="Priority"
-            VerticalAlign: =VerticalAlign.Top
-            Width: =161
-            Y: =66
-            ZIndex: =7
-
-        lblSupporterFix As label:
-            Height: =30
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: ="Supporter"
-            VerticalAlign: =VerticalAlign.Top
-            Width: =161
-            Y: =97
-            ZIndex: =9
-
-        lblIdFix As label:
-            FontWeight: =FontWeight.Bold
-            Height: =30
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: ="ID"
-            VerticalAlign: =VerticalAlign.Top
-            Width: =161
-            Y: =36
-            ZIndex: =10
-
-        lblPrio As label:
-            Align: =Align.Right
-            Color: =If(ThisItem.priority.Value = "Medium", Orange, If(ThisItem.priority.Value = "High", Red, Green))
-            Height: =33
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.priority.Value
-            VerticalAlign: =VerticalAlign.Top
-            Width: =103
-            X: =246
-            Y: =68
-            ZIndex: =11
-
-        lblSupporter_1 As label:
-            Align: =Align.Right
-            Height: =31
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.category.Value
-            VerticalAlign: =VerticalAlign.Top
-            Width: =173
-            X: =176
-            Y: =127
-            ZIndex: =12
-
-        lblCategoryFix As label:
-            Height: =30
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: ="Category"
-            VerticalAlign: =VerticalAlign.Top
-            Width: =161
-            Y: =128
-            ZIndex: =13
-
     cpmHeader_1 As cpmHeader:
         Width: =1366
         ZIndex: =7
 
-    "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+    "glyOverview As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         Items: =ticket
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
-        X: =588
-        Y: =92
+        Y: =108
         ZIndex: =8
 
-        Image5 As image:
-            Height: =128
-            OnSelect: =Select(Parent)
-            Width: =128
-            X: =16
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =1
-
-        Title3 As label:
-            Height: =Self.Size * 1.8
+        Title3_1 As label:
+            Height: =25
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.Title
+            Size: =14
+            Text: ="Priority"
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - Image5.Width - 104
+            Width: =175
             X: =Image5.X + Image5.Width + 24
-            Y: =44
-            ZIndex: =2
+            Y: =68
+            ZIndex: =6
 
-        Subtitle3 As label:
-            Height: =Self.Size * 1.8
+        Title3_2 As label:
+            Height: =21
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.ID
+            Size: =14
+            Text: ="Supporter"
             VerticalAlign: =VerticalAlign.Top
-            Width: =Title3.Width
-            X: =Title3.X
-            Y: =Title3.Y + Title3.Height + 4
-            ZIndex: =3
+            Width: =175
+            X: =168
+            Y: =86
+            ZIndex: =7
 
-        NextArrow3 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            Height: =60
-            Icon: =Icon.ChevronRight
+        Title3_3 As label:
+            Height: =29
             OnSelect: =Select(Parent)
-            PaddingBottom: =10
-            PaddingLeft: =10
-            PaddingRight: =10
-            PaddingTop: =10
-            TabIndex: =0
-            Tooltip: ="View item details"
-            Width: =60
-            X: =Parent.TemplateWidth - Self.Width - 5
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =4
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =14
+            Text: ="ID"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =165
+            X: =Image5.X + Image5.Width + 24
+            Y: =46
+            ZIndex: =8
 
-        Separator3 As rectangle:
-            Height: =1
+        Title3_4 As label:
+            Align: =Align.Right
+            Color: =If(ThisItem.priority.Value = "Medium", Orange, If(ThisItem.priority.Value = "High", Red, Green))   
+            Height: =25
             OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - 1
-            ZIndex: =5
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =14
+            Text: =ThisItem.priority.Value
+            VerticalAlign: =VerticalAlign.Top
+            Width: =175
+            X: =401
+            Y: =68
+            ZIndex: =9
+
+        Title3_5 As label:
+            Height: =21
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =14
+            Text: ="Category"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =175
+            X: =168
+            Y: =115
+            ZIndex: =10
+
+        lblCategory As label:
+            Align: =Align.Right
+            Color: =RGBA(0,0,0,1)         
+            Height: =25
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =14
+            Text: =ThisItem.category.Value
+            VerticalAlign: =VerticalAlign.Top
+            Width: =175
+            X: =401
+            Y: =111
+            ZIndex: =12
 
