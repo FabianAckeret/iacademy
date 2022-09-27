@@ -1,107 +1,23 @@
 {
-  "ComponentIndexes": {
-    "cpmHeader": 3
-  },
+  "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "cpmHeader": 3,
-    "DataCardKey1": 14,
-    "DataCardKey10": 59,
-    "DataCardKey9": 54,
-    "DataCardValue1": 15,
-    "DataCardValue10": 60,
-    "DataCardValue9": 55,
-    "description_DataCard2": 53,
-    "ErrorMessage1": 16,
-    "ErrorMessage10": 61,
-    "ErrorMessage9": 56,
-    "Form3": 12,
-    "imgHeader": 5,
-    "lblHeader": 4,
-    "priority_DataCard2": 58,
-    "scrMain": 6,
-    "scrNeuesTicket": 7,
-    "scrTicketingOverview": 8,
-    "StarVisible1": 17,
-    "StarVisible10": 62,
-    "StarVisible9": 57,
-    "Title_DataCard1": 13
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/27/2022 14:04:57",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {
-    "1639d0c4-81ff-48e4-8dd6-c51a6f7bc63a": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/59cb6448f4374cf3bb71bdbec4f73023\""
-  },
+  "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
-  "OrderComponentMetadata": {
-    "a86b2444c62c46a5b47a868a669588f9": 0
-  },
-  "OrderComponentTemplate": {
-    "a86b2444c62c46a5b47a868a669588f9": 0
-  },
-  "OrderDataSource": {
-    "category": 0,
-    "ComboBoxSample": 5,
-    "notes": 1,
-    "prio": 2,
-    "status": 3,
-    "ticket": 4
-  },
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "combobox": 3,
-    "form": 0,
-    "image": 4,
-    "label": 1,
-    "text": 2
-  },
-  "PublishOrderIndices": {
-    "App": 0,
-    "cpmHeader": 1,
-    "DataCardKey1": 0,
-    "DataCardKey10": 0,
-    "DataCardKey9": 0,
-    "DataCardValue1": 0,
-    "DataCardValue10": 0,
-    "DataCardValue9": 0,
-    "description_DataCard2": 0,
-    "ErrorMessage1": 0,
-    "ErrorMessage10": 0,
-    "ErrorMessage9": 0,
-    "Form3": 0,
-    "imgHeader": 3,
-    "lblHeader": 2,
-    "priority_DataCard2": 0,
-    "scrMain": 5,
-    "scrNeuesTicket": 6,
-    "scrTicketingOverview": 7,
-    "StarVisible1": 0,
-    "StarVisible10": 0,
-    "StarVisible9": 0,
-    "Title_DataCard1": 0
-  },
-  "ResourcesJsonIndices": {
-    "Image-SampleImage": 0
-  },
+  "OrderXMLTemplate": {},
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.04222,
-    "ControlCount": {
-      "a86b2444c62c46a5b47a868a669588f9": 1,
-      "image": 1,
-      "label": 1,
-      "screen": 3
-    },
-    "DeserializationLoadTime": 0.8129,
-    "ErrorCount": 0
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }
