@@ -21,12 +21,14 @@ scrNeuesTicket As screen:
         ZIndex: =4
 
     btnCreate As button:
+        Fill: =RGBA(102, 182, 227, 1)
         Text: ="Create"
         X: =1185
         Y: =710
         ZIndex: =7
 
     btnCancel As button:
+        Fill: =RGBA(102, 182, 227, 1)
         OnSelect: =Navigate(scrMain,ScreenTransition.CoverRight)
         Text: ="Cancel"
         X: =970
@@ -50,6 +52,7 @@ scrNeuesTicket As screen:
         ZIndex: =10
 
     Import1 As import:
+        Fill: =RGBA(102, 182, 227, 1)
         Text: ="Attachments"
         Width: =400
         X: =900
