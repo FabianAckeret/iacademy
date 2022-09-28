@@ -1,57 +1,58 @@
 scrNeuesTicket As screen:
 
-    TextInput1 As text:
+    tipNeuesTicketTitle As text:
         Default: ="Title"
         Height: =50
         Width: =800
+        X: =50
         Y: =150
         ZIndex: =1
 
-    TextInput1_1 As text:
+    tipNeuesTicketDescription As text:
         Default: ="Description"
         Height: =500
         Mode: =TextMode.MultiLine
         Width: =800
+        X: =50
         Y: =210
         ZIndex: =2
-
-    TextInput1_2 As text:
-        Default: ="Priority"
-        Height: =50
-        Width: =400
-        X: =850
-        Y: =150
-        ZIndex: =3
 
     cpmHeader_3 As cpmHeader:
         ZIndex: =4
 
-    TextInput1_3 As text:
-        Default: ="Attachments"
-        Height: =50
-        Width: =400
-        X: =850
-        Y: =210
-        ZIndex: =5
-
-    TextInput1_4 As text:
-        Default: ="Attachments"
-        Height: =50
-        Width: =400
-        X: =850
-        Y: =272
-        ZIndex: =6
-
-    Button1 As button:
+    btnCreate As button:
         Text: ="Create"
         X: =1185
         Y: =710
         ZIndex: =7
 
-    Button1_1 As button:
+    btnCancel As button:
         OnSelect: =Navigate(scrMain,ScreenTransition.CoverRight)
         Text: ="Cancel"
         X: =970
         Y: =710
         ZIndex: =8
+
+    dpdPriority As dropdown:
+        Height: =50
+        Items: =DropDownSample
+        Width: =400
+        X: =900
+        Y: =150
+        ZIndex: =9
+
+    dpdCategory As dropdown:
+        Height: =50
+        Items: =DropDownSample
+        Width: =400
+        X: =900
+        Y: =210
+        ZIndex: =10
+
+    Import1 As import:
+        Text: ="Attachments"
+        Width: =400
+        X: =900
+        Y: =295
+        ZIndex: =11
 

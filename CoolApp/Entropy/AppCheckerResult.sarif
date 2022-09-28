@@ -1228,19 +1228,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "scrNeuesTicket.TextInput1.AccessibleLabel"
+                  "fullyQualifiedName": "scrNeuesTicket.tipNeuesTicketTitle.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "scrNeuesTicket.TextInput1.AccessibleLabel",
+                  "fullyQualifiedName": "scrNeuesTicket.tipNeuesTicketTitle.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "scrNeuesTicket",
-                "type": "scrNeuesTicket.TextInput1"
+                "type": "scrNeuesTicket.tipNeuesTicketTitle"
               }
             }
           ],
@@ -1258,19 +1258,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "scrNeuesTicket.TextInput1_1.AccessibleLabel"
+                  "fullyQualifiedName": "scrNeuesTicket.tipNeuesTicketDescription.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "scrNeuesTicket.TextInput1_1.AccessibleLabel",
+                  "fullyQualifiedName": "scrNeuesTicket.tipNeuesTicketDescription.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "scrNeuesTicket",
-                "type": "scrNeuesTicket.TextInput1_1"
+                "type": "scrNeuesTicket.tipNeuesTicketDescription"
               }
             }
           ],
@@ -1288,19 +1288,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "scrNeuesTicket.TextInput1_2.AccessibleLabel"
+                  "fullyQualifiedName": "scrNeuesTicket.dpdCategory.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "scrNeuesTicket.TextInput1_2.AccessibleLabel",
+                  "fullyQualifiedName": "scrNeuesTicket.dpdCategory.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "scrNeuesTicket",
-                "type": "scrNeuesTicket.TextInput1_2"
+                "type": "scrNeuesTicket.dpdCategory"
               }
             }
           ],
@@ -1318,49 +1318,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "scrNeuesTicket.TextInput1_3.AccessibleLabel"
+                  "fullyQualifiedName": "scrNeuesTicket.dpdPriority.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "scrNeuesTicket.TextInput1_3.AccessibleLabel",
+                  "fullyQualifiedName": "scrNeuesTicket.dpdPriority.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "scrNeuesTicket",
-                "type": "scrNeuesTicket.TextInput1_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "scrNeuesTicket.TextInput1_4.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "scrNeuesTicket.TextInput1_4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "scrNeuesTicket",
-                "type": "scrNeuesTicket.TextInput1_4"
+                "type": "scrNeuesTicket.dpdPriority"
               }
             }
           ],
