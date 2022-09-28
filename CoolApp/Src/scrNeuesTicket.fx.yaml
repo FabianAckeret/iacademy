@@ -6,15 +6,15 @@ scrNeuesTicket As screen:
         Fill: =RGBA(102, 182, 227, 1)
         OnSelect: =SubmitForm(frmNeuesTicket)
         Text: ="Create"
-        X: =1185
+        X: =991
         Y: =710
         ZIndex: =2
 
-    btnCancel_1 As button:
+    btnCancel As button:
         Fill: =RGBA(102, 182, 227, 1)
         OnSelect: =Navigate(scrMain,ScreenTransition.CoverRight)
         Text: ="Cancel"
-        X: =970
+        X: =1187
         Y: =710
         ZIndex: =3
 
@@ -359,4 +359,12 @@ scrNeuesTicket As screen:
                 Wrap: =false
                 Y: =DataCardKey1.Y
                 ZIndex: =4
+
+    btnNewTicket_2 As button:
+        Fill: =RGBA(102, 182, 227, 1)
+        OnSelect: =NewForm(frmNeuesTicket)
+        Text: ="New Ticket"
+        X: =36
+        Y: =710
+        ZIndex: =5
 

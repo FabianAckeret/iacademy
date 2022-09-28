@@ -109,7 +109,6 @@
   },
   "ScreenOrder": [
     "scrMain",
-    "scrNeuesTicketMockup",
     "scrTicketingOverview",
     "scrNeuesTicket"
   ]
