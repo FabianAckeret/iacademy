@@ -1,6 +1,6 @@
 scrNeuesTicket As screen:
 
-    tipNeuesTicketTitle As text:
+    tipTitle As text:
         Default: ="Title"
         Height: =50
         Width: =800
@@ -8,7 +8,7 @@ scrNeuesTicket As screen:
         Y: =150
         ZIndex: =1
 
-    tipNeuesTicketDescription As text:
+    tipDescription As text:
         Default: ="Description"
         Height: =500
         Mode: =TextMode.MultiLine
@@ -51,7 +51,7 @@ scrNeuesTicket As screen:
         Y: =210
         ZIndex: =10
 
-    Import1 As import:
+    ImpAttachments As import:
         Fill: =RGBA(102, 182, 227, 1)
         Text: ="Attachments"
         Width: =400

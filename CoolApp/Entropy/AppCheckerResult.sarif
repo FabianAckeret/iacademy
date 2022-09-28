@@ -1228,19 +1228,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "scrNeuesTicket.tipNeuesTicketTitle.AccessibleLabel"
+                  "fullyQualifiedName": "scrNeuesTicket.tipTitle.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "scrNeuesTicket.tipNeuesTicketTitle.AccessibleLabel",
+                  "fullyQualifiedName": "scrNeuesTicket.tipTitle.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "scrNeuesTicket",
-                "type": "scrNeuesTicket.tipNeuesTicketTitle"
+                "type": "scrNeuesTicket.tipTitle"
               }
             }
           ],
@@ -1258,19 +1258,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "scrNeuesTicket.tipNeuesTicketDescription.AccessibleLabel"
+                  "fullyQualifiedName": "scrNeuesTicket.tipDescription.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "scrNeuesTicket.tipNeuesTicketDescription.AccessibleLabel",
+                  "fullyQualifiedName": "scrNeuesTicket.tipDescription.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "scrNeuesTicket",
-                "type": "scrNeuesTicket.tipNeuesTicketDescription"
+                "type": "scrNeuesTicket.tipDescription"
               }
             }
           ],
