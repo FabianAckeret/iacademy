@@ -48,3 +48,10 @@ scrNeuesTicket As screen:
         Y: =710
         ZIndex: =7
 
+    Button1_1 As button:
+        OnSelect: =Navigate(scrMain,ScreenTransition.CoverRight)
+        Text: ="Cancel"
+        X: =970
+        Y: =710
+        ZIndex: =8
+
