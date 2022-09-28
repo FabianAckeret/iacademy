@@ -3,7 +3,7 @@ scrMain As screen:
     btnNewTicket As button:
         Fill: =RGBA(102, 182, 227, 1)
         Height: =205
-        OnSelect: =Navigate(scrNeuesTicketMockup,ScreenTransition.CoverRight)
+        OnSelect: =Navigate(scrNeuesTicket,ScreenTransition.CoverRight)
         Size: =25
         Text: ="New Ticket"
         Width: =252

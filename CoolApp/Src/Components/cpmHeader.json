@@ -103,7 +103,7 @@
         "Name": "lblHeader",
         "Parent": "cpmHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 58,
+        "PublishOrderIndex": 63,
         "Rules": [
           {
             "Category": "Data",
@@ -403,7 +403,7 @@
         "Name": "imgHeader",
         "Parent": "cpmHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 59,
+        "PublishOrderIndex": 64,
         "Rules": [
           {
             "Category": "Data",
@@ -674,7 +674,7 @@
         "Name": "lblUser",
         "Parent": "cpmHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 60,
+        "PublishOrderIndex": 65,
         "Rules": [
           {
             "Category": "Data",

@@ -860,46 +860,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "scrMain.btnNewTicket.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "scrMain.btnNewTicket.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 20,
-                  "charOffset": 9,
-                  "snippet": {
-                    "text": "scrNeuesTicketMockup"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "scrMain",
-                "type": "scrMain.btnNewTicket"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "scrNeuesTicketMockup"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "scrTicketingOverview.glyOverview.Title3_3.X"
                 }
               ],
@@ -1281,6 +1241,36 @@
                 "member": "AccessibleLabel",
                 "module": "scrNeuesTicket",
                 "type": "scrNeuesTicket.frmNeuesTicket.Title_DataCard1.DataCardValue1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "scrNeuesTicket.frmNeuesTicket.person_DataCard2.DataCardValue13.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "scrNeuesTicket.frmNeuesTicket.person_DataCard2.DataCardValue13.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "scrNeuesTicket",
+                "type": "scrNeuesTicket.frmNeuesTicket.person_DataCard2.DataCardValue13"
               }
             }
           ],
